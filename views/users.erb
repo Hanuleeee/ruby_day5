@@ -1,0 +1,13 @@
+<h3>회원아이디 목록</h3><br/><br/>
+<table>
+    <thead>
+        <th>ID</th>
+    </thead>
+    <body>
+        <% @users.each do |user|%>
+        <tr>
+            <td><%=user[0]%></td>
+        </tr>
+        <% end %>
+    </body>
+</table>
